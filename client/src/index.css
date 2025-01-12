@@ -11,3 +11,159 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* navbar */
+.profile-btn{
+ background-color: rgb(255, 0, 0);
+ border: none;
+ padding: 4px;
+ border-radius: 4px;
+ color: white;
+}
+
+.p-btn{
+  background-color: #FFCDC6;
+  color: rgb(48, 48, 48);
+  border: none;
+  border-radius: 3px;
+}
+
+.nav-li:hover{
+  color: #13d5cb;
+}
+
+
+.text-main{
+  color: #595FBC;
+}
+
+.text-secondaryy{
+  color: #1B938C;
+}
+
+.fw-big{
+  font-weight: 600;
+}
+
+.bg-main{
+  background-color: #a677e04f;
+}
+
+.badge-main{
+  background-color:#595FBC ;
+  color: white;
+  border: none;
+  padding: 2px 4px;
+  border-radius: 25px;
+  font-size: xx-small;
+  margin-right: 2px;
+}
+
+.badge-secondaryy{
+  background-color: #bdbdbd;
+  color: white; 
+  border: none;
+  padding: 0 8px;
+  font-size: xx-small;
+  margin-right: 2px;
+}
+
+.badge-greenn{
+  background-color: #13d5cb;
+  color: white; 
+  border: none;
+  padding: 0 8px;
+  font-size: xx-small;
+  margin-right: 2px;
+}
+
+.badge-yellow{
+  background-color: #e0d61e;
+  color: white;
+  border: none; 
+  padding: 0 8px;
+  font-size: xx-small;
+  margin-right: 2px;
+}
+
+.badge-red{
+  background-color: #ea1212;
+  color: white;
+  border: none; 
+  padding: 0 8px;
+  font-size: xx-small;
+  margin-right: 2px;
+}
+
+.badge-green{
+  background-color: #1B938C;
+  color: white; 
+  border: none;
+  padding: 0 8px;
+}
+
+.badge-blue{
+  background-color: #595FBC;
+  color: white; 
+  border: none;
+  padding: 2px 4px;
+  border-radius: 2px;
+  font-size: xX-small;
+}
+
+.bg-green-box{
+  background-color: #1B938C;
+  color: white; 
+  border: none;
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+.btn-main{
+  background-color:#595FBC ;
+  color: white;
+  border: none;
+  padding: 4px 0;
+  border-radius: 6px;
+}
+
+.btn-outline-main{
+  background-color:#7d59bc1a ;
+  /* 7d59bc1a */
+  color: rgb(0, 0, 0);
+  border: 1px dotted #757bdb;
+  padding: 2px 0;
+  border-radius: 2px;
+}
+
+.approch-btn{
+  background-color:#7d59bc1a ;
+  border: none;
+  padding: 0 6px;
+  border-radius: 2px;
+}
+
+.Suggestions-btn{
+  background-color:#7d59bc1a ;
+  color: rgb(0, 0, 0);
+  border: 1px dotted #757bdb;
+  padding: 6px 0;
+  border-radius: 2px;
+  font-size: large;
+}
+
+.fs-sm{
+  font-size: x-small;
+}
+
+.btn-white{
+  background-color:#ffffff1a ;
+  color: rgb(0, 0, 0);
+  border: 1px solid #595FBC;
+  padding: 2px 0;
+  border-radius: 2px;
+}
+
+.btn-outline-main i {
+  color: rgb(214, 12, 12);
+}
