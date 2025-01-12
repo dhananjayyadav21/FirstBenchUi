@@ -14,9 +14,9 @@ code {
 
 /* navbar */
 .profile-btn{
- background-color: rgb(255, 0, 0);
+ background-color: #1B2530;
  border: none;
- padding: 4px;
+ padding: 6px 8px;
  border-radius: 4px;
  color: white;
 }
@@ -25,6 +25,7 @@ code {
   background-color: #FFCDC6;
   color: rgb(48, 48, 48);
   border: none;
+  padding: 0 6px;
   border-radius: 3px;
 }
 
@@ -63,7 +64,7 @@ code {
   background-color: #bdbdbd;
   color: white; 
   border: none;
-  padding: 0 8px;
+  padding: 2px 8px;
   font-size: xx-small;
   margin-right: 2px;
 }
@@ -72,7 +73,7 @@ code {
   background-color: #13d5cb;
   color: white; 
   border: none;
-  padding: 0 8px;
+  padding: 2px 8px;
   font-size: xx-small;
   margin-right: 2px;
 }
@@ -81,7 +82,7 @@ code {
   background-color: #e0d61e;
   color: white;
   border: none; 
-  padding: 0 8px;
+  padding: 2px 8px;
   font-size: xx-small;
   margin-right: 2px;
 }
@@ -90,7 +91,7 @@ code {
   background-color: #ea1212;
   color: white;
   border: none; 
-  padding: 0 8px;
+  padding: 2px 8px;
   font-size: xx-small;
   margin-right: 2px;
 }
@@ -166,4 +167,18 @@ code {
 
 .btn-outline-main i {
   color: rgb(214, 12, 12);
+}
+
+
+nav.navbar.navbar-bg{
+  background-color: #2F3A47 !important;
+  color: #ADB7C4 !important;
+}
+
+nav.navbar .nav-item .nav-link{
+  color: #ADB7C4 !important;
+}
+
+nav.navbar .nav-item .nav-link:hover{
+  color: #75C2C1 !important;
 }

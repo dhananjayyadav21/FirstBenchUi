@@ -8,6 +8,7 @@ const Home = () => {
       <div className='container-fluid py-4'>
         <div className="row g-3"style={{minHeight:"100vh"}} >
 
+        {/*================================================== left Section ===============================================*/}
           <div className="col-lg-4">
             <div className='bg-light p-4 border rounded-3'>
               <section className='rounded-4 py-3'>
@@ -36,7 +37,7 @@ const Home = () => {
                   </div> 
                   <div className='text-center'>
                     <button className="bg-green-box"> 76% </button>
-                    <p className='fw-big text-secondaryy'>ACCURACY</p>
+                    <p className='fw-big fs-sm my-1 text-secondaryy'>ACCURACY</p>
                   </div>
                 </div>
 
@@ -61,7 +62,7 @@ const Home = () => {
                       <span className='m-0 p-0'>By</span>
                       <span className='fw-big p-0 m-0'> Parth Akotkar</span>
                     </span>
-                    <button className="badge-green rounded-4"> 92% ACCURACY </button>
+                    <button className="badge-green fw-big fs-sm rounded-4"> 92% ACCURACY </button>
                   </div>
                 </div>
 
@@ -87,28 +88,32 @@ const Home = () => {
             </div>
           </div>
 
+        {/*================================================== Right Section ===============================================*/}
           <div className='col-lg-8'>
             <div className='bg-light p-4 border rounded-3'>
+
+              {/*======================================== Compare Accuracy Section ======================================*/}
               <section>
                 <div className='row g-3 d-flex'>
                   <div className="col-lg-4">
                     <div className='bg-white rounded-2 border p-2' style={{minHeight:"270px"}}>
-                      <div><span><i class="fa-solid fa-rotate-right mx-2"></i></span><span>Compare Accuracy</span></div>
+                      <div><span><i class="fa-regular fa-square-caret-down mx-2"></i></span><span>Compare Accuracy</span></div>
                     </div>
                   </div>
                   <div className="col-lg-4">
                     <div className='bg-white rounded-2 border p-2' style={{minHeight:"270px"}}>
-                      <div><span><i class="fa-solid fa-rotate-right mx-2"></i></span><span>Compare Accuracy</span></div>
+                      <div><span><i class="fa-regular fa-square-caret-down mx-2"></i></span><span>Compare Accuracy</span></div>
                     </div>
                   </div>
                   <div className="col-lg-4">
                     <div className='bg-white rounded-2 border p-2' style={{minHeight:"270px"}}>
-                      <div><span><i class="fa-solid fa-rotate-right mx-2"></i></span><span>Compare Accuracy</span></div>
+                      <div><span><i class="fa-regular fa-square-caret-down mx-2"></i></span><span>Compare Accuracy</span></div>
                     </div>
                   </div>
                 </div>
               </section>
 
+              {/*======================================== Right-Second Section ======================================*/}
               <section className='my-3'>
                 <div className='row g-3'>
                   <div className="col-lg-3">
@@ -131,7 +136,7 @@ const Home = () => {
 
                   <div className="col-lg-3">
                     <div className='bg-white rounded-2 border p-3 h-100'>
-                    <span className='text-muted'><i class="fa-solid fa-wand-magic-sparkles"></i></span><span className='mx-2'>Response Time</span>
+                    <span className='text-muted'><i class="fa-regular fa-clock"></i></span><span className='mx-2'>Response Time</span>
                       <div>
                       <button class="badge-blue mt-3 mb-2">Std Time - 2min</button>
                       <button class="btn-outline-main w-100"><span className='text-info fs-3 fw-big'>60</span> <span className='text-secondary'>%Ans took</span><span className='ms-2'><i class="fa-solid fa-arrow-up mx-1"></i></span><span className='text-main'>2min</span></button>
@@ -174,7 +179,7 @@ const Home = () => {
 
                   <div className="col-lg-3">
                     <div className='bg-white rounded-2 border p-3 h-100'>
-                    <span className='text-muted'><i class="fa-solid fa-wand-magic-sparkles"></i></span><span className='mx-2'>Suggestions</span>
+                    <span className='text-muted'><i class="fa-solid fa-spray-can-sparkles"></i></span><span className='mx-2'>Suggestions</span>
                       <div className='row g-3 my-1 text-center'>
                         <div className="col-4"><button class="badge-blue mt-3 mb-2">Q. 1-12</button></div>
                         <div className="col-4"><button class="badge-blue mt-3 mb-2">Q. 12-32</button></div>
@@ -207,17 +212,19 @@ const Home = () => {
                 </div>
               </section>
 
+             {/*======================================== Time-Tacken Section ======================================*/}
               <section>
                 <div className='row g-3'>
                    <div className='col-lg-6'>
                     <div className='bg-white rounded-2 border p-3 h-100'>
-                      <span className='text-muted'><i class="fa-solid fa-wand-magic-sparkles"></i></span><span className='mx-2'>Compare Accuracy</span>
+                      <span className='text-muted'><i class="fa-solid fa-code-compare"></i></span><span className='mx-2'>Compare Accuracy</span>
                         <CompareAccuracy/>
                     </div>
                    </div>
+
                    <div className='col-lg-6'>
                     <div className='bg-white rounded-2 border p-3 h-100'>
-                      <span className='text-muted'><i class="fa-solid fa-wand-magic-sparkles"></i></span><span className='mx-2'>Time Taken</span>
+                      <span className='text-muted'><i class="fa-solid fa-timeline"></i></span><span className='mx-2'>Time Taken</span>
                         <TimeTaken/>
                     </div>
                    </div>

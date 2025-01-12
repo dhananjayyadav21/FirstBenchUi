@@ -12,29 +12,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-bg">
       <div className="container-fluid">
+
         {/* Toggler for mobile */}
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <button  className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav">
-          {/* Unified Navigation Items */}
           <ul className="navbar-nav mx-auto d-flex align-items-center justify-content-center">
             {/* Firstbench Logo and Text */}
             <li className="nav-item mx-3 text-center">
               <a className="nav-link d-flex align-items-center" href="/">
-              <i className="fas fa-graduation-cap me-2"></i>
-                Firstbench
+              <img src="/assets/logo.jpg" alt="logo" />
+                 <span className='fs-4 text-white'> Firstbench</span>
               </a>
             </li>
             <li className="nav-item mx-3 text-center">

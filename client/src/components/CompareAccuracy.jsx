@@ -11,7 +11,6 @@ import {
 } from 'chart.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// Register Chart.js components
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
 const CompareAccuracy = () => {
@@ -19,7 +18,6 @@ const CompareAccuracy = () => {
 
   const handleTimeClick = (time) => {
     setActiveTime(time);
-    // Update chart data based on selected time if needed
   };
 
   const data = {
@@ -27,7 +25,7 @@ const CompareAccuracy = () => {
     datasets: [
       {
         label: 'Accuracy',
-        data: [80, 50, 30, 70, 60, 50, 70], // Example data
+        data: [80, 50, 30, 70, 60, 50, 70], 
         backgroundColor: '#a29bfe',
         borderRadius: 4,
       },
@@ -51,7 +49,7 @@ const CompareAccuracy = () => {
       y: {
         title: {
           display: true,
-          text: 'Accuracy',
+          text: 'Accuracy (%)',
         },
         min: 0,
         max: 100,
@@ -63,17 +61,32 @@ const CompareAccuracy = () => {
   };
 
   return (
-    <div className="container mt-5 px-3">
+    <div className="container mt-5 px-3 position-relative ">
       <div className="d-flex justify-content-center mb-3">
         {['10MIN', '15MIN', '30MIN', '45MIN'].map((time) => (
           <button
             key={time}
             className={`btn btn-sm ${activeTime === time ? 'btn-info text-white' : 'btn-secondary'} mx-1`}
             onClick={() => handleTimeClick(time)}
+            style={{zIndex:"100"}}
           >
             {time}
           </button>
         ))}
+
+       {/* info Bar */}
+        <div
+          style={{
+            position: "absolute",
+            top: "10px",
+            left: "15%",
+            height: "8px",
+            width: "80%",
+            backgroundColor: "#ABEDE9",
+            borderRadius: "2px",
+          }}
+        ></div> 
+
       </div>
       <Bar data={data} options={options} />
     </div>

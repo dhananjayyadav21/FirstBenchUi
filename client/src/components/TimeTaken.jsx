@@ -1,12 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import scaleImage from "../../src/assets/scale.png"; // Update with actual path to your scale image
+import scaleImage from "../../src/assets/scale.png"; 
 
 const TimeTaken = () => {
   return (
     <div className="container mt-4 px-3">
 
-      {/* First Ruler Design */}
+      {/*-------------------------------------------------- First Ruler Design --------------------------------------------*/}
       <div
         className="position-relative mb-4"
         style={{
@@ -63,7 +63,7 @@ const TimeTaken = () => {
         industry. Lorem Ipsum is dummy text.
       </p>
 
-      {/* Second Ruler Design */}
+      {/*------------------------------------------------ Second Ruler Design -----------------------------------------------*/}
       <div
         className="position-relative mb-4"
         style={{
@@ -79,7 +79,7 @@ const TimeTaken = () => {
           style={{
             position: "absolute",
             top: "0",
-            left: "49%", // Adjust this percentage for exact slider placement
+            left: "49%", 
             height: "80px",
             width: "12px",
             backgroundColor: "#7d59bc75",
