@@ -5,11 +5,11 @@ import TimeTaken from '../components/TimeTaken'
 const Home = () => {
   return (
     <>
-      <div className='container-fluid py-4'>
+      <div className='container-lg py-4'>
         <div className="row g-3"style={{minHeight:"100vh"}} >
 
         {/*================================================== left Section ===============================================*/}
-          <div className="col-lg-4">
+          <div className="col-lg-3">
             <div className='bg-light p-4 border rounded-3'>
               <section className='rounded-4 py-3'>
                 <div className='d-flex justify-content-center'>
@@ -17,7 +17,7 @@ const Home = () => {
                 </div>
                 <div className='text-center '>
                   <h4 className='m-0 py-2 text-main fw-big'>Your Result!</h4>  
-                  <p className='m-0 text-muted fw-big'>All your insights & details in one place</p>
+                  <p className='m-0 text-muted fw-big fs-md'>All your insights & details in one place</p>
                 </div>
               </section>
 
@@ -28,7 +28,7 @@ const Home = () => {
                       <i class="fa-solid fa-list-check fa-2x"></i>
                     </div>
                     <div className='d-flex flex-column mx-3'>
-                      <span class="badge-main fw-big">YOU`VE PASSED</span>
+                      <button class="badge-main fw-big">YOU`VE PASSED</button>
                       <span className=''>
                         <span className='fs-4 fw-big'>136</span>
                         <span>/240</span>
@@ -59,8 +59,8 @@ const Home = () => {
                   </div>
                   <div className='d-flex justify-content-between'>
                     <span>
-                      <span className='m-0 p-0'>By</span>
-                      <span className='fw-big p-0 m-0'> Parth Akotkar</span>
+                      <span className='fs-md m-0 p-0'>By</span>
+                      <span className='fw-big fs-md p-0 m-0'> Parth Akotkar</span>
                     </span>
                     <button className="badge-green fw-big fs-sm rounded-4"> 92% ACCURACY </button>
                   </div>
@@ -68,28 +68,28 @@ const Home = () => {
 
                 <div>
                   <h5 className='fw-big m-0 p-0'>Improve your Marks</h5>
-                  <p className='m-0 p-0 text-muted'>Improve your score by practicing more</p>
+                  <p className='m-0 p-0 text-muted fs-md fw-big'>Improve your score by practicing more.</p>
                 </div>
                 <button className='btn-main mt-5 w-100'>Practice more</button>
               </section>
 
               <section className='bg-white border rounded-3 p-3 my-3'>
                 <div>
-                  <h4 className='fw-big'>Revisit Paper</h4>
-                  <p className='text-muted p-0'>Challenge your friends by simply sharing a link to this test</p>
+                  <h5 className='fw-big'>Revisit Paper</h5>
+                  <p className='text-muted fs-md fw-big p-0'>Challenge your friends by simply sharing a link to this test</p>
                 </div>
                 <div className='d-flex justify-content-center my-4'>
                   <button className='btn-main w-75'><i class="fa-solid fa-file-arrow-up mx-2"></i>Visit</button>
                 </div> 
                 <div className='d-flex align-items-start text-muted'>
-                  <span><i class="fa-solid fa-circle-exclamation mx-2"></i></span><span>Instructor for how to upload your handwritten material in given</span>
+                  <span><i class="fa-solid fa-circle-exclamation mx-2"></i></span><span className='fs-md'>Instructor for how to upload your handwritten material in given</span>
                 </div>
               </section>
             </div>
           </div>
 
         {/*================================================== Right Section ===============================================*/}
-          <div className='col-lg-8'>
+          <div className='col-lg-9'>
             <div className='bg-light p-4 border rounded-3'>
 
               {/*======================================== Compare Accuracy Section ======================================*/}
@@ -154,24 +154,24 @@ const Home = () => {
                     <div className='bg-white rounded-2 border p-3 h-100'>
                       <span className='text-muted'><i class="fa-solid fa-wand-magic-sparkles"></i></span><span className='mx-2'>Approach Data</span>
                       <div className='my-1'>
-                        <button class="btn-white w-100 py-1 my-1">
+                        <button class="btn-white w-100 p-1 my-1 d-flex">
                           <button className='approch-btn'><span className='text-main fs-6 fw-big'>25</span><span className='text-secondary'>%</span></button>
-                          <span className='ms-2 fw-big'>Based on</span><span className='text-main fw-big'> Facts</span>
+                          <span className='ms-2 fw-big fs-md'>Based on</span><span className='text-main fw-big fs-md'> Facts</span>
                         </button>
 
-                        <button class="btn-white w-100 py-1 my-1">
+                        <button class="btn-white w-100 p-1 my-1 d-flex">
                           <button className='approch-btn'><span className='text-main fs-6 fw-big'>25</span><span className='text-secondary'>%</span></button>
-                          <span className='ms-2 fw-big'>Based on</span><span className='text-main fw-big'> Facts</span>
+                          <span className='ms-2 fw-big fs-md'>Based on</span><span className='text-main fw-big fs-md'> Analysis</span>
                         </button>
 
-                        <button class="btn-white w-100 py-1 my-1">
+                        <button class="btn-white w-100 p-1 my-1 d-flex">
                           <button className='approch-btn'><span className='text-main fs-6 fw-big'>25</span><span className='text-secondary'>%</span></button>
-                          <span className='ms-2 fw-big'>Based on</span><span className='text-main fw-big'> Facts</span>
+                          <span className='ms-2 fw-big fs-md'>Based on</span><span className='text-main fw-big fs-md'> Elimination</span>
                         </button>
 
-                        <button class="btn-white w-100 py-1 my-1">
+                        <button class="btn-white w-100 p-1 my-1 d-flex">
                           <button className='approch-btn'><span className='text-main fs-6 fw-big'>25</span><span className='text-secondary'>%</span></button>
-                          <span className='ms-2 fw-big'>Based on</span><span className='text-main fw-big'> Facts</span>
+                          <span className='ms-2 fw-big fs-md'>Based on</span><span className='text-main fw-big fs-md'> Guess</span>
                         </button>
                       </div>
                     </div>
