@@ -60,7 +60,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item mx-3 text-center">
-              <a className="nav-link" href="/">
+              <a className="nav-link active" href="/">
                 <FontAwesomeIcon icon={faFileAlt} className="me-2" />
                 Mock Test
               </a>

@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-/* navbar */
+/*====================================================== navbar ============================================*/
 .profile-btn{
  background-color: #1B2530;
  border: none;
@@ -33,7 +33,24 @@ code {
   color: #13d5cb;
 }
 
+nav.navbar.navbar-bg{
+  background-color: #2F3A47 !important;
+  color: #ADB7C4 !important;
+}
 
+nav.navbar .nav-item .nav-link{
+  color: #ADB7C4 !important;
+}
+
+nav.navbar .nav-item .nav-link:hover{
+  color: #75C2C1 !important;
+}
+
+nav.navbar .nav-item .nav-link.active{
+  color: #75C2C1 !important;
+}
+
+/* ====================================================== text css ====================================================== */
 .text-main{
   color: #595FBC;
 }
@@ -46,6 +63,20 @@ code {
   font-weight: 600;
 }
 
+
+.fs-sm{
+  font-size: x-small;
+}
+
+.fs-md{
+  font-size: small;
+}
+
+.fs-lg{
+  font-size: medium;
+}
+
+/*====================================================== ackground and badge ======================================================*/
 .bg-main{
   background-color: #a677e04f;
 }
@@ -120,6 +151,8 @@ code {
   border-radius: 4px;
 }
 
+/*=============================================================== btn ====================================================== */
+
 .btn-main{
   background-color:#595FBC ;
   color: white;
@@ -153,18 +186,6 @@ code {
   font-size: large;
 }
 
-.fs-sm{
-  font-size: x-small;
-}
-
-.fs-md{
-  font-size: small;
-}
-
-.fs-lg{
-  font-size: medium;
-}
-
 .btn-white{
   background-color:#ffffff1a ;
   color: rgb(0, 0, 0);
@@ -177,16 +198,3 @@ code {
   color: rgb(214, 12, 12);
 }
 
-
-nav.navbar.navbar-bg{
-  background-color: #2F3A47 !important;
-  color: #ADB7C4 !important;
-}
-
-nav.navbar .nav-item .nav-link{
-  color: #ADB7C4 !important;
-}
-
-nav.navbar .nav-item .nav-link:hover{
-  color: #75C2C1 !important;
-}
