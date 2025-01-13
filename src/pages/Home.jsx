@@ -156,17 +156,17 @@ const Home = () => {
                       <div className='my-1'>
                         <button class="btn-white w-100 p-1 my-1 d-flex">
                           <button className='approch-btn'><span className='text-main fs-6 fw-big'>25</span><span className='text-secondary'>%</span></button>
-                          <span className='ms-2 fw-big fs-md'>Based on</span><span className='text-main fw-big fs-md'> Facts</span>
+                          <span className='ms-2 fw-big fs-md'>Based on </span><span className='text-main fw-big fs-md'> Facts</span>
                         </button>
 
                         <button class="btn-white w-100 p-1 my-1 d-flex">
                           <button className='approch-btn'><span className='text-main fs-6 fw-big'>25</span><span className='text-secondary'>%</span></button>
-                          <span className='ms-2 fw-big fs-md'>Based on</span><span className='text-main fw-big fs-md'> Analysis</span>
+                          <span className='ms-2 fw-big fs-md'>Based on </span><span className='text-main fw-big fs-md'> Analysis</span>
                         </button>
 
                         <button class="btn-white w-100 p-1 my-1 d-flex">
                           <button className='approch-btn'><span className='text-main fs-6 fw-big'>25</span><span className='text-secondary'>%</span></button>
-                          <span className='ms-2 fw-big fs-md'>Based on</span><span className='text-main fw-big fs-md'> Elimination</span>
+                          <span className='ms-2 fw-big fs-md'>Based on </span><span className='text-main fw-big fs-md'> Elimination</span>
                         </button>
 
                         <button class="btn-white w-100 p-1 my-1 d-flex">
